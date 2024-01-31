@@ -22,7 +22,7 @@ class  TweetService {
             tag.tweets.push(tweet.id);
             tag.save();
         });
-        return tweet
+        return tweet;
     }
 }
 
